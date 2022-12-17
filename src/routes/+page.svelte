@@ -5,14 +5,14 @@
   import ButtonOpening from "$lib/components/ButtonOpening.svelte";
   import ButtonSwap from "$lib/components/ButtonSwap.svelte";
 
-  let test = "Hover Me";
+  let test = "Yo Dawg";
 </script>
 
 <div class="container">
   <ButtonLayers />
   <ButtonCircle />
   <ButtonFolds />
-  <ButtonOpening {test} />
+  <ButtonOpening />
   <ButtonSwap {test} />
 </div>
 

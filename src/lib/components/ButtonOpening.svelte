@@ -1,12 +1,8 @@
 <script lang="ts">
-  type Test = {
-    test: string;
-  };
-  export let test: Test;
 </script>
 
 <div>
-  <a href="#">{test}</a>
+  <a href="#">Hover Me</a>
 </div>
 
 <style>

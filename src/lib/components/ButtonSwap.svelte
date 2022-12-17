@@ -3,7 +3,7 @@
 </script>
 
 <div>
-  <a href="#">Hover Me</a>
+  <a href="#" data-content={test}>Hover Me</a>
 </div>
 
 <style>
@@ -42,7 +42,7 @@
   }
 
   a:after {
-    content: "Cool Huh?";
+    content: attr(data-content);
     position: absolute;
     top: 0;
     left: 0;
