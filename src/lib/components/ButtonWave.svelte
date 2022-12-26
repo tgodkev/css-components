@@ -1,18 +1,17 @@
-<body>
+<div>
   <a href="#"
     >button <div class="wave" /></a
   >
-</body>
+</div>
 
 <style>
-  body {
+  div {
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 10vh;
     font-family: sans-serif;
-    background-color: #272727;
   }
 
   a {
