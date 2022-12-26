@@ -4,16 +4,18 @@
   import ButtonFolds from "$lib/components/ButtonFolds.svelte";
   import ButtonOpening from "$lib/components/ButtonOpening.svelte";
   import ButtonSwap from "$lib/components/ButtonSwap.svelte";
+  import ButtonWave from "$lib/components/ButtonWave.svelte";
 
   let test = "Yo Dawg";
 </script>
 
 <div class="container">
-  <ButtonLayers />
+  <!-- <ButtonLayers />
   <ButtonCircle />
   <ButtonFolds />
   <ButtonOpening />
-  <ButtonSwap {test} />
+  <ButtonSwap {test} /> -->
+  <ButtonWave />
 </div>
 
 <style>

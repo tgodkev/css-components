@@ -1,0 +1,70 @@
+<body>
+  <a href="#"
+    >button <div class="wave" /></a
+  >
+</body>
+
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #272727;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #00aeff;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border: 2px solid #00aeff;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  .wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: calc(100% + 22px);
+    background-color: #00aeff;
+    transition: all 1s;
+    z-index: -1;
+  }
+
+  a:hover .wave {
+    top: 0;
+  }
+
+  .wave:before {
+    content: "";
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    background: url(wave.png);
+    animation: wavy 0.5s linear infinite;
+  }
+
+  @keyframes wavy {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 118px;
+    }
+  }
+</style>
